@@ -1,0 +1,111 @@
+*,::after , ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.header_top{
+    background: rgba(96, 158, 172, 0.5);
+}
+.header{
+    height: 483px;
+    width: 100%;
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    padding: 15px 0 15px 6px;
+    display: flex;
+    align-items: center;
+}
+.logo_text{
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none   ;
+}
+.shapes{
+    /* border: 1px solid red; */
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    padding: 14px 10px 12px 10px;
+    background: rgba(56, 146, 167, 0.5);
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 65px;
+}
+.section_title{
+   padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_title h2{
+    color: #8b8b8b;
+    font-size: 37px;
+    font-weight: 400   ;
+}
+.button{
+    color: #fff;
+    font-size: 37px; 
+    font-weight: 400;
+    background: #8fcddc;
+    text-decoration: none;
+    padding: 17px 25px 12px 29px;
+    margin-left: 39px ;
+}
+.text{
+    color: #636363;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 38px 0 27px ;
+    text-align: center;
+}
+.section_text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 25px ;
+}
+.section_blok{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.section_blok a{
+    text-decoration: none;
+    color: #636363;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 0 25px ;
+}
+.footer{
+    background:#484242;
+}
+.footer h3{
+    color: #fff;
+    font-size: 17px;
+    opacity: 50%;
+    text-align: center;
+    padding: 13px 0 15px;
+}
